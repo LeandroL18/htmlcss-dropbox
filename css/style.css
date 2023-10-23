@@ -1,0 +1,39 @@
+/* Stili generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Stili header */
+header{
+    width: 100%;
+    /* DEBUG */
+    background-color: aqua;
+    min-height: 60px;
+}
+
+/* Stili main */
+.container_esteso{
+    width: 100%;
+    /* DEBUG */
+    background-color: rgb(56, 134, 173);
+    min-height: 360px;
+}
+
+.container_centrale{
+    width: 70%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: rgb(224, 65, 25);
+    min-height: 360px;
+}
+
+/* Stili footer */
+#footer{
+    background-color: black;
+}
