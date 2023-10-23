@@ -9,6 +9,13 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.link{
+    padding: 5px 10px 5px 10px;
+    color: white;
+    background-color: rgb(52, 123, 255);
+    text-decoration: none;
+}
+
 /* Stili header */
 header{
     width: 100%;
@@ -34,21 +41,36 @@ header a{
 .cella a{
     vertical-align: 6px;
 }
-.cella:nth-of-type(2) a:last-child{
-    padding: 5px 10px 5px 10px;
-    color: white;
-    background-color: rgb(52, 123, 255);
-}
 
 /* Stili main */
 main{
     margin-top: 60px;
 }
+
 .container_esteso{
     width: 100%;
-    /* DEBUG */
-    background-color: rgb(56, 134, 173);
-    min-height: 360px;
+    padding-top: 40px;
+    background-color: rgb(92, 167, 205);
+}
+#jumbotron div{
+    width: 50%;
+    margin: 0 auto;
+}
+#jumbotron h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+#jumbotron img{
+    width: 50%;
+    float: right;
+}
+#jumbotron p{  
+    margin-bottom: 30px;
+}
+#jumbotron span{
+    display: block;
+    clear: both;
 }
 
 .container_centrale{
