@@ -88,22 +88,23 @@ main{
     margin: 6% auto;
     /* DEBUG */
     border: 2px solid black;
-    min-height: 360px;
 }
 .container_centrale h1{
+    font-size: 40px;
     margin-top: 20px;
     margin-bottom: 40px;
 }
 .container_centrale #annuale{
     margin-left: 10px;
 }
+
 /* Stili container celle column */
 .container_celle{
     width: 100%;
     display: flex;
     margin-top: 20px;
 }
-.container_celle span, h2, a, h3, ul, h4{
+.container_celle span, h2, a, h3, ul, h4, p{
     padding: 6px 15px 6px 15px;
     list-style: none;
 }
@@ -137,6 +138,9 @@ main{
     width: 20%;
     margin: 20px 0 30px 15px;
 }
+.no_border{
+    border: none;
+} 
 
 /* Stili container row */
 #container_row{
@@ -159,9 +163,9 @@ main{
     clear: both;
 }
 
-/* Stili container di contatto */
+/* Stili container contatto */
 #container_contatto{
-    margin-top: 5%;
+    margin: 7% 0;
     width: 98.5%;
     min-height: 440px;
 }
@@ -188,6 +192,9 @@ main{
     clear: both;
 }
 
+#clienti{
+    padding: 0;
+}
 /* Stili footer */
 #footer{
     background-color: black;
