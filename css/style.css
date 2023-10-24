@@ -196,6 +196,23 @@ main{
     padding: 0;
 }
 /* Stili footer */
-#footer{
+footer{
+    width: 100%;
+    padding: 10px;
+    color: white;
     background-color: black;
+}
+.container_list{
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    /* DEBUG */
+    border: 1px solid white;
+    min-height: 30px;
+}
+.cella_lista{
+    width: calc(100% / 5);
+}
+.cella_lista li{
+    margin: 5px 0 5px 0;
 }
