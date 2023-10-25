@@ -50,18 +50,17 @@ main{
 .container_esteso{
     width: 100%;
     padding-top: 40px;
-    background-color: rgb(92, 167, 205);
+    background-color: rgb(145, 184, 211);
 }
 /* Stili jumbotron */
 #jumbotron div{
-    width: 50%;
-    min-height: 600px;
+    width: 100vh;
+    height: 600px;
     margin: 0 auto;
 }
 #jumbotron h1{
     font-size: 450%;
     font-weight: 800;
-    font-weight: bold;
     margin-bottom: 3%;
 }
 #jumbotron img{
@@ -85,10 +84,8 @@ main{
 
 /* Stili container centrale */
 .container_centrale{
-    width: 40%;
+    width: 86vh;
     margin: 6% auto;
-    /* DEBUG */
-    border: 2px solid black;
 }
 .container_centrale h1{
     font-size: 40px;
@@ -107,7 +104,7 @@ main{
 }
 .container_celle span, h2, a, h3, ul, h4, p{
     padding: 6px 15px 6px 15px;
-    list-style: none;
+    list-style: none; 
 }
 .cella_column{
     width: calc((100% / 3) - 15px);
@@ -178,13 +175,13 @@ main{
     width: 100%;
 }
 #container_contatto h2{
-    margin: 6% 15px 0 15px ;
+    margin: 6% 15px 0 4% ;
 }
 #container_contatto p{
-    margin: 0 15px 3% 15px;
-}
+    margin: 0 0 3% 8%;
+} 
 #container_contatto a{
-    margin-left: 10%;
+    margin-left: 8%;
     padding: 5px 10px 5px 10px;
     text-decoration: none;
     color: black;
@@ -194,11 +191,94 @@ main{
     padding: 0;
 }
 
+/* Stili Sponsor */
+ #link_white{
+    color: black;
+    background-color: white;
+ }
+ .cella_p:first-of-type{
+    width: 60%;
+    color: rgb(99, 39, 59);
+    padding-bottom: 6%;
+ }
+ .cella_p:last-of-type{
+    width: 40%;
+    padding: 4% 0 0 8%;
+ }
+ .cella_s{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+ }
+.cella_s:nth-child(2){
+    height: 55vh;
+    overflow-y: auto;
+    background-color: rgb(236, 236, 236);
+    padding: 50px;
+}
+.cella_s:nth-child(2) img{
+    width: 50%;
+}
+.cella_s:nth-child(2) hr{
+    width: 15%;
+    margin: 5% 0 5% 0;
+}
+.cella_s:nth-child(2) p{
+    padding-bottom:7%;
+}
+.cella_s:nth-child(2) span{
+    padding:0;
+}
+.cella_s div{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cella_s div>img{
+    filter: invert(100%);
+    width: 50%;
+}
+.no_padding{
+    padding: 0;
+}
+.margin{
+    margin-top: 3%;
+}
+
+/* Definizione dei colori di sfondo */
+#designit{
+    background-color: green;
+}
+#arizona{
+    background-color: rgb(99, 39, 59);
+}
+#florida{
+    background-color: rgb(0, 128, 255);
+}
+#topps{
+    background-color: red;
+}
+#world{
+    background-color: rgb(170, 28, 28);
+}
+#hearst_corp{
+    background-color: rgb(145, 184, 211);
+}
+#lonely_planet{
+    background-color: blue;
+}
+#clear_channel{
+    background-color: yellow;
+}
+
+
+
 /* Stili faq */
 .fa-angle-up{
     float: right;
 }
-
 .container_centrale h4{
     padding: 0;
     margin: 30px 0 30px 0;
